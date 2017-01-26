@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Bazaar</title>
+
+    <!-- CSS Plugins -->
+    <link href="assets/plugins/fullpage/jquery.fullpage.min.css" rel="stylesheet">
+    <link href="assets/plugins/animate/animate.min.css" rel="stylesheet">
+    <link href="assets/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- CSS Global -->
+    <link href="assets/css/styles.css" rel="stylesheet">
+
+    <!-- Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800,400italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Questrial' rel='stylesheet' type='text/css'>
+
+    <link rel="shortcut icon" type="image/png" href="./favicon.png"/>
+  <body>
+
+    <!-- MAIN CONTENT
+    ================================================== -->
+
+    <!-- Background Image -->
+    <div class="bg-image hidden"></div>
+
+
+    <!-- Background Colors -->
+    <div class="bg-colors" data-colors="#D3744C,#568CD3,#389E86,#9356D3,#D35D56,#587EA0,#518E7E"></div>
+
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#section_welcome">Bazaar</a>
+        </div>
+
+        <div id="navbar" class="collapse navbar-collapse">
+          <a href="https://play.google.com/store/apps/details?id=com.tubuc.bazaar" class="btn btn-lg navbar-right navbar-btn">
+            <i class="fa fa-android"></i> Play Store
+          </a>
+          <a href="https://itunes.apple.com/app/id1135263950" class="btn btn-lg navbar-right navbar-btn">
+            <i class="fa fa-apple"></i> App Store
+          </a>
+          <ul class="nav navbar-nav navbar-right menu">
+            <li data-menuanchor="section_welcome">
+              <a href="#section_welcome">Welcome</a>
+            </li>
+            <li data-menuanchor="section_how_it_works">
+              <a href="#section_how_it_works">How It Works</a>
+            </li>
+            <li data-menuanchor="section_feed">
+              <a href="#section_feed">Trade Feed</a>
+            </li>
+            <li data-menuanchor="section_create">
+              <a href="#section_create">Create</a>
+            </li>
+            <li data-menuanchor="section_chat">
+              <a href="#section_chat">Chat</a>
+            </li>
+            <li data-menuanchor="section_reviews">
+              <a href="#section_reviews">Reviews</a>
+            </li>
+          </ul>
+
+        </div><!-- /.navbar-collapse -->
+
+      </div><!-- /.container -->
+    </nav>
+
+
+    <!-- Side menu -->
+    <div class="side-menu hidden-xs hidden-sm">
+      <ul class="menu">
+        <li data-menuanchor="section_welcome">
+          <a href="#section_welcome"></a>
+        </li>
+        <li data-menuanchor="section_how_it_works">
+          <a href="#section_how_it_works"></a>
+        </li>
+        <li data-menuanchor="section_feed">
+          <a href="#section_feed"></a>
+        </li>
+        <li data-menuanchor="section_create">
+          <a href="#section_create"></a>
+        </li>
+        <li data-menuanchor="section_chat">
+          <a href="#section_chat"></a>
+        </li>
+        <li data-menuanchor="section_reviews">
+          <a href="#section_reviews"></a>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Social links -->
+    <div class="social-links hidden-xs hidden-sm">
+      <ul>
+        <li>
+          <a href="https://twitter.com/bazaartheapp"><i class="fa fa-twitter"></i></a>
+        </li>
+        <li>
+          <a href="https://www.facebook.com/bazaartheapp"><i class="fa fa-facebook"></i></a>
+        </li>
+      </ul>
+    </div>
+
+
+    <!-- Devices -->
+    <div class="device__container hidden-xs">
+
+      <!-- iPhone -->
+      <div class="iphone__container white">
+
+        <!-- Slides -->
+        <div class="iphone__screen">
+          <div class="device__slides">
+
+            <img src="assets/img/app-screenshots/bazaar_00.png" alt="...">
+            <img src="assets/img/app-screenshots/bazaar_04.png" alt="...">
+            <img src="assets/img/app-screenshots/bazaar_01.png" alt="...">
+            <img src="assets/img/app-screenshots/bazaar_02.png" alt="...">
+            <img src="assets/img/app-screenshots/bazaar_03.png" alt="...">
+            <img src="assets/img/app-screenshots/bazaar_05.png" alt="...">
+
+          </div>
+        </div>
+
+      </div>
+
+    </div> <!-- / .device__container -->
+
+
+    <!-- Sections -->
+    <div id="fullpage">
+
+      <!-- Welcome -->
+      <section data-anchor="section_welcome">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6 col-sm-offset-6 col-md-5 col-md-offset-6">
+
+              <h1 class="heading" data-animate-in="animateUpDown">
+                Bazaar: The Trading App
+              </h1>
+
+              <p class="delay_1" data-animate-in="animateUpDown">
+                Become the very best there ever was by trading with players in your area.
+              </p>
+              <a href="#" class="btn btn-lg btn-primary delay_2" data-animate-in="animateUpDown">
+                <i class="fa fa-apple"></i> App Store
+              </a>
+              <a href="#" class="btn btn-lg btn-primary delay_2" data-animate-in="animateUpDown">
+                <i class="fa fa-android"></i> Play Store
+              </a>
+
+            </div>
+          </div> <!-- / .row -->
+        </div><!-- / .container -->
+      </section>
+
+      <!-- Carousel -->
+      <section data-anchor="section_how_it_works">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6 col-sm-offset-6 col-md-5 col-md-offset-6">
+
+              <h2 class="heading" data-animate-in="animateUp">
+                Here's how it works.
+              </h2>
+
+              <!-- Nav tabs -->
+              <ul class="nav nav-tabs delay_1" role="tablist" data-animate-in="animateUp">
+                <li role="presentation" class="active">
+                  <a href="#lorem" aria-controls="lorem" role="tab" data-toggle="tab">
+                    <span>1. Browse</span>
+                  </a>
+                </li>
+                <li role="presentation">
+                  <a href="#ipsum" aria-controls="ipsum" role="tab" data-toggle="tab">
+                    <span>2. Chat</span>
+                  </a>
+                </li>
+                <li role="presentation">
+                  <a href="#dolor" aria-controls="dolor" role="tab" data-toggle="tab">
+                    <span>3. Trade</span>
+                  </a>
+                </li>
+              </ul>
+
+              <!-- Tab panes -->
+              <div class="tab-content delay_2" data-animate-in="animateUp">
+
+                <div role="tabpanel" class="tab-pane fade in active" id="lorem">
+                  <p>
+                    Browse for mons by using your feed. Only mons in your area show up. When you like one, tap on it!
+                  </p>
+                </div>
+
+                <div role="tabpanel" class="tab-pane fade" id="ipsum">
+                  <p>
+                    Check the deets on this mon. If they're up to your standards, press the Chat button to talk to the trainer who posted it.
+                  </p>
+                </div>
+
+                <div role="tabpanel" class="tab-pane fade" id="dolor">
+                  <p>
+                    Once you and the other trainer settle on an dealio, coordinate the trade!
+                  </p>
+                </div>
+              </div> <!-- / .tab-content -->
+
+            </div>
+          </div> <!-- / .row -->
+        </div> <!-- / .container -->
+      </section>
+
+      <!-- Features -->
+      <section data-anchor="section_feed">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6 col-sm-offset-6 col-md-5 col-md-offset-6">
+
+              <h1 class="heading" data-animate-in="animateUp">
+                Browse the feed
+              </h1>
+
+              <p class="delay_1" data-animate-in="animateUp">
+                The feed contains listings added by other players in your area. At any given second, you can pull down to refresh and see the most recent listings. Our advice: if you see a rare one, be quick!
+              </p>
+
+              <ul class="list-ticked">
+                <li class="delay_2" data-animate-in="animateUp">
+                  <i class="fa fa-check"></i> Charizard
+                </li>
+                <li class="delay_2_1" data-animate-in="animateUp">
+                  <i class="fa fa-check"></i> Lapras
+                </li>
+                <li class="delay_2_2" data-animate-in="animateUp">
+                  <i class="fa fa-check"></i> Dragonite
+                </li>
+              </ul>
+
+            </div>
+          </div> <!-- / .row -->
+        </div><!-- / .container -->
+      </section>
+
+      <!-- Text block -->
+      <section data-anchor="section_create">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6 col-sm-offset-6 col-md-5 col-md-offset-6">
+
+              <h2 class="heading" data-animate-in="animateUp">
+                Create listings of your own
+              </h2>
+
+              <p class="delay_1" data-animate-in="animateUp">
+                It takes a few seconds to post a mon you have for trade, and you can add up to 25 of them. If they're not all Pidgeys, other trainers will reach out to you with what they have to offer.
+              </p>
+
+            </div>
+          </div> <!-- / .row -->
+        </div> <!-- / .container -->
+      </section>
+
+      <!-- Tabs -->
+      <section data-anchor="section_chat">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6 col-sm-offset-6 col-md-5 col-md-offset-6">
+
+              <h2 class="heading" data-animate-in="animateUp">
+                Chat
+              </h2>
+
+              <p class="delay_1" data-animate-in="animateUp">
+                Once you find that perfect mon to take down your entire city's gyms, chat with the trainer who owns it!
+              </p>
+
+            </div>
+          </div> <!-- / .row -->
+        </div> <!-- / .container -->
+      </section>
+
+      <!-- Video -->
+      <section data-anchor="section_reviews">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6 col-sm-offset-6 col-md-5 col-md-offset-6">
+
+              <h2 class="heading" data-animate-in="animateUp">
+                What people say about us:
+              </h2>
+
+              <div id="carousel_custom" class="carousel slide">
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner delay_1" role="listbox" data-animate-in="animateUp">
+
+                  <div class="item active">
+                    <p>
+                      " Wow, just wow... I was lost in darkness, now I see light. I never thought I'd have Dragonite. "
+                    </p>
+                    <p>Alek Hurst - User</p>
+                  </div>
+
+                  <div class="item">
+                    <p>
+                      " If you want to keep your friends, don't get this app. You'll end up beating them at pokemon so badly, they'll have to hide the story from their family. "
+                    </p>
+                    <p>Alek Hurst - User</p>
+                  </div>
+
+                  <div class="item">
+                    <p>
+                      " Beautiful. "
+                    </p>
+                    <p>Alek Hurst - User</p>
+                  </div>
+                </div> <!-- / .carousel-inner -->
+
+                <!-- Indicators -->
+                <ol class="carousel-indicators delay_2" data-animate-in="animateUp">
+                  <li data-target="#carousel_custom" data-slide-to="0" class="active"></li>
+                  <li data-target="#carousel_custom" data-slide-to="1"></li>
+                  <li data-target="#carousel_custom" data-slide-to="2"></li>
+                </ol>
+
+              </div> <!-- / .carousel -->
+
+
+            </div>
+          </div> <!-- / .row -->
+        </div> <!-- / .container -->
+      </section>
+
+    </div> <!-- / #fullpage -->
+
+
+    <!-- RESOURCES
+    ================================================== -->
+
+    <!-- JS Global -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+
+    <!-- JS Plugins -->
+    <script src="assets/plugins/fullpage/jquery.fullpage.min.js"></script>
+
+    <!-- JS Custom -->
+    <script src="assets/js/custom.js"></script>
+
+    <!-- <script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us14.list-manage.com","uuid":"d1604f7b1aa8f990ea6968c2b","lid":"8ac34b4e0e"}) }); document.cookie = "MCEvilPopupClosed=; expires=Thu, 01 Jan 1970 00:00:00 UTC";</script>
+    <script>
+      function waitForElementToDisplay(selector, time) {
+          if(document.querySelector(selector)!=null) {
+              document.querySelector('.mc-modal').style.top = '120px';
+              return;
+          }
+          else {
+              setTimeout(function() {
+                  waitForElementToDisplay(selector, time);
+              }, time);
+          }
+      }
+
+      waitForElementToDisplay('.mc-modal', 300)
+    </script>
+    <style>
+      .modalContent {
+        top: 50px !important;
+      }
+    </style> -->
+  </body>
+</html>
